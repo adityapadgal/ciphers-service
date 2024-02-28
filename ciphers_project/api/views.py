@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from .ciphers import caesar_encode
 
 def greetings(request):
-    result = {"message":"Welome to cipher service!"}
+    result = {"message":"Welome to cipher service!!"}
     return JsonResponse(result)
 
 def encode(request, plaintext, shift):
