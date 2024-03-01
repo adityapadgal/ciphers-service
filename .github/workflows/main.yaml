@@ -30,7 +30,7 @@ jobs:
       
       - name: Build and Push the image
         run: |
-          docker login --username adityapadgal --password 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 ghcr.io
+          docker login --username adityapadgal --password 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 ghcr.io
           docker build -t ghcr.io/adityapadgal/ciphers-service:latest --file Dockerfile .
           docker push ghcr.io/adityapadgal/ciphers-service:latest
 
